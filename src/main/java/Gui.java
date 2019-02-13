@@ -40,18 +40,18 @@ public class Gui extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        time.setText("Time");
+        time.setText("TIME");
 
-        jLabel1.setText("Local time & date");
+        jLabel1.setText("LOCAL TIME AND DATE");
 
-        dateandtimebtn.setText("Display local time & date");
+        dateandtimebtn.setText("DISPLAY THE LOCAL TIME & DATE");
         dateandtimebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dateandtimebtnActionPerformed(evt);
             }
         });
 
-        date.setText("Date");
+        date.setText("DATE");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
