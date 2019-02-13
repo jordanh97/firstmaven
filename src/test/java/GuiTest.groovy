@@ -1,5 +1,5 @@
 class GuiTest extends GroovyTestCase {
     void testMain() {
-        println "hi"
+        println "hi there"
     }
 }
